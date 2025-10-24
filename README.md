@@ -27,11 +27,78 @@ After Windows Upgrade completes:
    
      This will give you the maximum of 60 days before the previous operating system version is automatically deleted.
    If you are sure you will be keeping Windows 11, you can run cleanmgr and clean system files to delete everything.
+   If you already upgraded to Windows 11 and it's already been 10 days, it's too late and the command will show "element not found" 
 
      FlyOOBE: Original Project can be found at https://github.com/builtbybel/FlyOOBE
-   This utility (and subutilities will be crucial in improving your Windows 11 experience as it has various tweaks to:
-   *debloat Windows 11 of programs you dont want, and also remove the forced Ai features of Co-Pilot
+   This utility (and sub-utilities will be crucial in improving your Windows 11 experience as it has various tweaks to:
+   *debloat Windows 11 of programs you dont want, and also remove the forced Ai features of Co-Pilot along with various other Microsoft advertising and data collection methods.
    
    *optimize the responsiveness of Windows 11 by disabling things that cause lag.
 
+   Run FlyOOBE.exe (right click and run as administrator)
+
+   Go through each setting on the left in order to have Windows 11 just the way you like
+
+   Personalization: option on the left, set your mode for the look and alignment
+
+   Browser: sets your default browser (because microsoft likes to reset that back to edge)
+
+   AI: Check for all Ai enabled settings, check the box for each, then Turn off selected
+
+   Network: skip it... basically sets you configure a Wi-Fi or use Ethernet
+
+   Account: allows you to create a local account to use, or connect a Microsoft Account (why?)
+
+   Apps: Allows you to remove Microsoft Apps you might not use so they're not taking up space
+
+   Experience: ONE OF THE BEST PARTS OF THIS APP:
+       Change "Lets Configure your device" and choose "Use quick settings", check everything, click apply
+       Change "Use quick settings" and choose "system", check everything except for "Disable Hibernation" if you're on a laptop or tablet, click Apply.
+     Change "system" and choose "MS Edge"
+
+   check these good defaults to leave edge in a working state in case you use it:
+
+   check "dont show sponsored links in new tab page"
+
+   check "disable shopping assistant"
+
+   check "don't show first run experience"
+
+   check "disable gamer mode"
+
+   check "disable start boost"
+
+   check "dont submit user feedback options"
+        
+   Click apply.
+      Change "MS Edge" and choose "UI"
+
+   click "show full context menus in Windows 11"
+
+   click "dont use personalized lock screen"
+
+   click "disable search box suggestions"
+
+   click "disable bing search"
+
+   click "pin more apps on the start menu"
+
+   click (optional) "disable transparency effects"
+
+   Click apply.
+       Change "UI" to "Gaming", check everything, click apply. "Disable Visual Effects: is optional, some like it.
+       Change "Gaming" to "Privacy" leave the first one unchecked, check the bottom three.
+
+   activity history is useful to find recent files you've worked with, but it's up to you.
+
+
+   click apply.
+
+   Change "Privacy" to "Ads", check everything (if not already checked), and click apply.
+Installer can be used to install multiple apps you might use or need updating
+Updates allows you to search for updates and ACTUALLY choose which updates to install
+
    *In Finalize Setup, run the extension for the ChrisTitusApp, go to tweaks, and apply recommended.
+   The full walkthough video can be found here: https://youtu.be/zccfmGYLNxY
+After you're done with the Chris Titus Tool, you're ready to reboot and get a good experience with a clean Windows 11.
+   
