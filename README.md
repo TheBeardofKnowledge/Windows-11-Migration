@@ -1,5 +1,7 @@
 Want a smooth in-place upgrade from Windows 10 to Windows 11?
+
 I've used these tools to successfully upgrade over 120 computers so far, supported and unsupported.
+
 The trick is to get your Windows 10 installation in a good state so the Windows 11 OS can migrate it properly,
   and after it's done installing optimize and debloat it's settings and features.
 
