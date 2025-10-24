@@ -16,6 +16,8 @@ Procedure:
    Choose the option to create ISO file, and save the iso into the same folder as these files you downloaded.
    What I highly recommend is after downloading the Microsoft ISO, trim it down using Tiny11Builder from NTDev:
    https://github.com/ntdevlabs/tiny11builder/blob/main/tiny11maker.ps1
+
+   You Can use the default Windows ISO though, no issues are experienced.
 5. Run Windows11Install.bat  This will search the folder it is in for any .iso files (you should only have 1 there) and mount
    it in system, then it will autorun the Windows installer with customized options to simply upgrade
    The command it runs is: .\sources\setupprep.exe /product server /auto upgrade /dynamicupdate disable /eula accept
