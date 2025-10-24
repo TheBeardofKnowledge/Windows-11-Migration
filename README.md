@@ -17,7 +17,6 @@ Procedure:
 5. Run Windows11Install.bat  This will search the folder it is in for any .iso files (you should only have 1 there) and mount
    it in system, then it will autorun the Windows installer with customized options to simply upgrade
    The command it runs is: .\sources\setupprep.exe /product server /auto upgrade /dynamicupdate disable /eula accept
-
 After Windows Upgrade completes:
 
      Disk Space: Be aware of your disk space immediately after an upgrade because not only is Windows 11 installed,
