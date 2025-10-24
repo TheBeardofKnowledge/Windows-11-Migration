@@ -29,5 +29,7 @@ After Windows Upgrade completes:
      FlyOOBE: Original Project can be found at https://github.com/builtbybel/FlyOOBE
    This utility (and subutilities will be crucial in improving your Windows 11 experience as it has various tweaks to:
    *debloat Windows 11 of programs you dont want, and also remove the forced Ai features of Co-Pilot
+   
    *optimize the responsiveness of Windows 11 by disabling things that cause lag.
+
    *In Finalize Setup, run the extension for the ChrisTitusApp, go to tweaks, and apply recommended.
