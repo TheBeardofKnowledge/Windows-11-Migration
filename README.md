@@ -17,12 +17,15 @@ Procedure:
 5. Run Windows11Install.bat  This will search the folder it is in for any .iso files (you should only have 1 there) and mount
    it in system, then it will autorun the Windows installer with customized options to simply upgrade
    The command it runs is: .\sources\setupprep.exe /product server /auto upgrade /dynamicupdate disable /eula accept
+
 After Windows Upgrade completes:
 
      Disk Space: Be aware of your disk space immediately after an upgrade because not only is Windows 11 installed,
      but your Windows 10 installation is still there for a bit, by default is 10 days.
      You can give yourself more time in that window of time by opening command/terminal as administrator and run:
+   
      DISM /Online /Set-OSUninstallWindow /Value:60
+   
      This will give you the maximum of 60 days before the previous operating system version is automatically deleted.
    If you are sure you will be keeping Windows 11, you can run cleanmgr and clean system files to delete everything.
 
