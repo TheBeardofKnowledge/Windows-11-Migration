@@ -19,12 +19,14 @@ Procedure:
 
    You Can use the default Windows ISO though, no issues are experienced.
 5. Run Windows11Install.bat  This will search the folder it is in for any .iso files (you should only have 1 there) and mount
-   it in system, then it will autorun the Windows installer with customized options to simply upgrade
+   it in system, then it will autorun the Windows installer with customized options to simply upgrade.
+
    The command it runs is: .\sources\setupprep.exe /product server /auto upgrade /dynamicupdate disable /eula accept
 After Windows Upgrade completes:
 
      Disk Space: Be aware of your disk space immediately after an upgrade because not only is Windows 11 installed,
      but your Windows 10 installation is still there for a bit, by default is 10 days.
+   
      You can give yourself more time in that window of time by opening command/terminal as administrator and run:
    
      DISM /Online /Set-OSUninstallWindow /Value:60
@@ -33,9 +35,13 @@ After Windows Upgrade completes:
    If you are sure you will be keeping Windows 11, you can run cleanmgr and clean system files to delete everything.
    If you already upgraded to Windows 11 and it's already been 10 days, it's too late and the command will show "element not found" 
 
-     FlyOOBE: Original Project can be found at https://github.com/builtbybel/FlyOOBE
+
+Next step is to optimize windows 11 with some tweaks:  
+
+   FlyOOBE: Original Project can be found at https://github.com/builtbybel/FlyOOBE
+   
    This utility (and sub-utilities will be crucial in improving your Windows 11 experience as it has various tweaks to:
-   *debloat Windows 11 of programs you dont want, and also remove the forced Ai features of Co-Pilot along with various other Microsoft advertising and data collection methods.
+   *trim Windows 11 of programs you don't want, and also remove the forced Ai features of Co-Pilot, along with various other Microsoft advertising and data collection methods.
    
    *optimize the responsiveness of Windows 11 by disabling things that cause lag.
 
