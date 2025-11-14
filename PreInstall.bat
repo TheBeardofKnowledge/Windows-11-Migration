@@ -412,8 +412,6 @@ echo ********************************************
 ECHO All cleaned up!
 ECHO Checking your Windows Drive for Errors
 	chkdsk /scan /perf /sdcleanup /forceofflinefix %SystemDrive%
-ECHO Checking Windows System Files for Errors
-	sfc /scannow
 ECHO Checking image health
 dism /online /cleanup-image /scanhealth
 
@@ -425,6 +423,9 @@ dism.exe /online /Cleanup-Image /StartComponentCleanup
 
 ECHO Resetting base image
 dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
+
+ECHO Checking Windows System Files for Errors
+	sfc /scannow
 
 ECHO Repairing Windows Management Instrumentation 
 ::WMIcorruptionfix
@@ -486,4 +487,5 @@ if /I "%c%" EQU "N" goto :END
 shutdown -r -t 0
 
 :END
+
 exit
